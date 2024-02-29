@@ -55,6 +55,16 @@ function startGame() {
         document.getElementById("dealer-cards").append(cardImg);
     }
     console.log(dealertotal);
+
+    for (let i =0; i < 2; i++) {
+        let cardImg = document.createElement("img")
+        let card = deck.pop();
+        cardImg.src = "./cards/cards" + card + ".jpg";
+        playersum += getValue(card);
+        playerAceCountAceCount += checkAce(card);
+        document.getElementById("player-cards").append(cardImg);  
+    }
+    console.log(playersum)
 }
 
 function getValue(card) {
