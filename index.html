@@ -1,39 +1,23 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-
-    <title>Blackjack</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Card-game</title>
 </head>
-
 <body>
-    <div class="layout">
-        <h2>Dealer Hand</h2>
-        <div class="wrapper">
-            <div class="cards" id="dealer">
-            </div>
-        </div>
-        <h2>Player Hand</h2>
-        <div class="wrapper">
-            <div class="cards" id="player">
-            </div>
-        </div>
-        <div class="wrapper">
-            <div class="container" id="button-container">
-                <button id="hit">Hit</button>
-                <button id="pass">Pass</button>
-            </div>
-        </div>
-        <div class="background" id="notice">
-        <div class="notice">
-            <p></p>
-            <button id="next-hand">Deal Next Hand</button>
-        </div>
-        </div>
-    </div>
-</body>
+    <h3>Dealer: <span id="dealer-total"></span></h3> 
+   <div id="dealers-cards">
+    <img id="hidden" src="./cards/cards/Red_back.jpg">
+   </div>
 
+   <h3>Player: <span id="player-sum"></span></h3>
+   <div id="player-cards"></div>
+   <br>
+   <button id="hit">Hit</button>
+   <button id="stay">Stay</button>
+   <p id="results"></p>
+   <script src="assets/css/js/images/script.js"></script>
+</body>
 </html>
