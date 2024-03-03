@@ -1,0 +1,3 @@
+not sure if code is 100% as been trying to deploy code and open browser to check what works and doesnt but keep getting error 502 when trying to open so project is not complete as not sure if code fully works as having trouble, tried geting in contact with people to help me figure this out but been able to so have to upload so dont get a fine. 
+thank you. 
+once figure issue out will reupload fully complete with a read me unless not allowed to.
